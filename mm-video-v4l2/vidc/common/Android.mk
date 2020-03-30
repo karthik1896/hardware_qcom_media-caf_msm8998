@@ -1,4 +1,4 @@
-ROOT_DIR := $(call my-dir)
+https://github.com/AOSPA/android_hardware_qcom_media.gitROOT_DIR := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_PATH:= $(ROOT_DIR)
@@ -24,9 +24,9 @@ endif
 # ---------------------------------------------------------------------------------
 
 libmm-vidc-inc      := $(LOCAL_PATH)/inc
-libmm-vidc-inc      += $(TOP)/hardware/qcom/media/mm-core/inc
+libmm-vidc-inc      += $(TOP)/hardware/qcom/media-caf/msm8998/mm-core/inc
 libmm-vidc-inc      += $(TARGET_OUT_HEADERS)/qcom/display
-libmm-vidc-inc      += $(TOP)/hardware/qcom/media/libc2dcolorconvert
+libmm-vidc-inc      += $(TOP)/hardware/qcom/media-caf/msm8998/libc2dcolorconvert
 libmm-vidc-inc      += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 
 LOCAL_MODULE                    := libOmxVidcCommon
