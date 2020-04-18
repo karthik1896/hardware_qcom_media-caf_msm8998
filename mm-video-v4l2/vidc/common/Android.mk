@@ -1,4 +1,4 @@
-https://github.com/AOSPA/android_hardware_qcom_media.gitROOT_DIR := $(call my-dir)
+ROOT_DIR := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_PATH:= $(ROOT_DIR)
